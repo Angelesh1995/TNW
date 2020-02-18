@@ -1,3 +1,9 @@
+body {
+  margin:0;
+}
+p{
+  margin:0;
+}
 .black-header {
   height: 40%;
   background-color: rgb(15, 15, 15);
@@ -91,4 +97,64 @@
 .square-font {
   font-family: 'Bai Jamjuree', sans-serif;
   font-weight: 500;
+}
+.yellow-header {
+  display: flex;
+  width: 100%;
+  height: 26px;
+  align-items: center;
+  background-color: rgba(255, 255, 0, 0.801);
+  
+
+}
+.nav-festival {
+  margin-left: 1.5%;
+}
+.header-logo {
+  max-width: 80%;
+  height: auto;
+}
+.logo {
+  position: relative;
+}
+
+
+@media screen and (max-width: 760px){
+  header{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .black-header{
+    display: none;
+  }
+  .white-header {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2 ;
+  }
+  .white-header-left a {
+    display: none;
+    grid-column: 1 / 3;
+
+  }
+  .white-header-right{
+    grid-column: 3 / 5;
+  }
+  .hamburguer-icon {
+    display: inline-block;
+  }
+  .yellow-header {
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+    text-align: center;
+  }
+  .logo {
+    position: absolute;
+  }
+  
+  .header-logo {
+    max-width: 80%;
+    height: auto;
+    
+  }
 }
