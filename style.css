@@ -21,3 +21,74 @@
     margin-right: 10px;
 }
 
+.white-header {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  background-color: white;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.white-header-left {
+  display: flex;
+  align-items: center;
+  
+}
+
+.white-header-left > * {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #979797;
+  margin-right: 4%;
+  
+}
+
+.white-header-right {
+  display: flex;
+}
+
+.search-wrapper {
+  width: 50px;
+  height: 100%;
+  border-left: 1px solid rgb(230, 230, 230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  display: block;
+  width: 16px;
+  height: 16px;
+  opacity: 0.5;
+}
+
+.hamburguer-icon {
+  padding: 15px;
+  width: 50px;
+  height: 100%;
+  box-sizing: border-box;
+  display: none;
+}
+.section-link {
+  display: inline-block;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.hamburguer-icon .hamb-line {
+  padding: 0;
+  margin: 0;
+  margin-top: 20%;
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #f42;
+}
+.square-font {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 500;
+}
