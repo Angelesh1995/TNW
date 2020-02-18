@@ -117,7 +117,7 @@ p{
   header{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
   .black-header{
     display: none;
@@ -143,6 +143,34 @@ p{
     text-align: center;
     font-size: 12px;
   
+  }
+  .featured {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+  }
+  
+  .image-one,
+  .image-two,
+  .image-three {
+    grid-column: 1 / 5;
+    background-size:cover;                      
+    background-repeat:no-repeat;
+    background-position:center center;
+  }
+
+  .image-one{
+    grid-row: 1 / 2;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/rebuild-product2-796x417.png);
+  }
+  .image-two{
+    grid-row: 2 / 3;
+    background-image: url(img/spotify.jpg);
+  }
+  .image-three{
+    grid-row: 3 / 4;
+    background-image: url(img/computer.png);
   }
   
   
