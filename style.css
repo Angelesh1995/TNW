@@ -1,0 +1,23 @@
+.black-header {
+  height: 40%;
+  background-color: rgb(15, 15, 15);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.black-header-left > *,
+.black-header-right > * {
+  text-decoration: none;
+    font-size: 0.85rem;
+    font-family: sans-serif;
+    color: #979797;
+    margin-right: 10px;
+}
+
