@@ -101,8 +101,8 @@ p{
 .yellow-header {
   display: flex;
   width: 100%;
-  height: 26px;
   align-items: center;
+  justify-content: center;
   background-color: rgba(255, 255, 0, 0.801);
   
 
@@ -110,20 +110,14 @@ p{
 .nav-festival {
   margin-left: 1.5%;
 }
-.header-logo {
-  max-width: 80%;
-  height: auto;
-}
-.logo {
-  position: relative;
-}
+
 
 
 @media screen and (max-width: 760px){
   header{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
   .black-header{
     display: none;
@@ -147,14 +141,9 @@ p{
     grid-column: 1 / -1;
     grid-row: 2 / -1;
     text-align: center;
-  }
-  .logo {
-    position: absolute;
+    font-size: 12px;
+  
   }
   
-  .header-logo {
-    max-width: 80%;
-    height: auto;
-    
-  }
+  
 }
