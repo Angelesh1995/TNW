@@ -332,6 +332,41 @@ a {
     margin-left: 6%;
     display: flex;
   }
+  .latest-news-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-bottom: 3%;
+  }
+  .latest-story {
+    display: flex;
+  }
+  .news-image {
+    width: 30%;
+    margin-right: 5%;
+  }
+  .description {
+    position: relative;
+    width: 70%;
+  }
+  .headline {
+    align-items: flex-start;
+    
+
+  }
+  .author{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: hsl(0,0%,30%);
+  }
+  .news-image img {
+    width: 100%;
+  }
+  .latest h2 {
+    margin-left: 4%;
+  }
 
   .author-meta-data li {
     margin-right: 10px;
@@ -355,4 +390,5 @@ a {
   .author-meta-data li a:hover {
     color: #fff;
   }
+  
 }
