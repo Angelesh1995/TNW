@@ -302,6 +302,41 @@ a {
   .cover-date {
     display: none;
   }
+  .timeline, .headline {
+    margin: 4% 8% 0;
+  }
+  .red-article{
+    display: flex;
+    height: 100px;
+    background-color: #f42;
+  }
+  .red-article-image{
+    width: 30%;
+    position: relative;
+    
+
+  }
+  .headline-list {
+    margin-top: 4%;
+  }
+  .headline-list ul {
+    list-style-type: disc;
+  
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10" height="10"><circle fill="red" cx="5" cy="5" r="2"/></svg>');
+    
+  }
+  .headline-list li{
+    margin-top: 4%;
+    margin-left: 8%;
+    border-bottom:1px solid rgb(212, 208, 208);
+    padding:5px;
+    
+
+    
+  }
+  .red-article-image img {
+    height: 100px;
+  }
 
   .cover header h5 {
     padding-left: 6%;
