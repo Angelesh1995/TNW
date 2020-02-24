@@ -194,13 +194,16 @@ a {
 
 .latest-news-item ul {
   display: flex;
-  margin-top: 2%;
+  align-content: flex-end;
+  
 }
 
 .latest-news-item ul li {
   font-family: sans-serif;
   font-size: 13px;
   color: #aaa;
+  
+  
 }
 
 .latest-news-item ul li:first-child:after {
@@ -213,6 +216,9 @@ a {
   font-size: 13px;
   font-weight: 400;
   color: #aaa;
+  align-self: flex-start;
+ 
+  
 }
 
 .latest-news-item ul li a:hover {
