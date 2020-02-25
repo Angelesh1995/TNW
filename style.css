@@ -714,11 +714,16 @@ a {
   top: 4px;
   height: 16px;
 }
+/*Tablet mode*/
+@media only screen and (max-width: 1000px) {
+  .latest-news-grid {
+    grid-template-columns: repeat(3, minmax(225px, 310px));
+  }
 
-@media screen and (min-width: 1000px) {
-  
-  
-  
+  .latest-news-item a img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /*Mobile layout*/
