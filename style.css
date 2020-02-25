@@ -724,6 +724,21 @@ a {
     width: 100%;
     height: auto;
   }
+  .funding-grid {
+    grid-template-columns: repeat(3, minmax(225px, 310px));
+  }
+
+  .funding-item:last-child {
+    display: none;
+  }
+
+  .funding-header-main {
+    flex-direction: column;
+  }
+
+  .funding-links {
+    margin: -10px 0 25px 10px;
+  }
 }
 
 /*Mobile layout*/
