@@ -592,7 +592,11 @@ a {
   color: #f42
   
 }
-.funding-header-main h2 a {
+.category h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.funding-header-main h2 a, .category h2 a {
   color: #f42;
 }
 
