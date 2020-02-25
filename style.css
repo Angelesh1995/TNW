@@ -583,7 +583,14 @@ a {
   font-size: 13px;
   line-height: 16px;
 }
-
+.latest h2 {
+  margin-bottom: 28px;
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #f42;
+}
 
 
 @media screen and (min-width: 1000px) {
@@ -846,14 +853,7 @@ a {
   .separator {
     display: none;
   }
-  .latest h2 {
-    margin-bottom: 28px;
-    margin-left: 20px;
-    font-family: sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    color: #f42;
-  }
+  
   .funding-header-main {
     display: flex;
     justify-content: space-between;
