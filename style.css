@@ -343,15 +343,19 @@ a {
   grid-template-columns: repeat(3, minmax(310px, 368px));
   justify-content: center;
   grid-gap: 20px;
-  margin: 80px auto;
+  margin: 20% auto;
   padding: 0 20px;
 }
 .category {
   height: 660px;
 }
-.apps-category .category-header {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/twitter-368x276.png');
+.category-header{
+  height: auto;
+}
+.apps-category .cover{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Snag_28822478-796x433.png");
   background-size: cover;
+
 }
 
 .gear-category .category-header {
