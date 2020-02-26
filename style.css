@@ -350,46 +350,49 @@ a {
   height: 660px;
 }
 .category-header{
-  height: auto;
+  width: 368px;
+  height: 276px;
 }
-.apps-category .cover{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Snag_28822478-796x433.png");
+.apps-category .category-header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 85%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-368x276.jpg");
   background-size: cover;
+  
 
 }
+
 
 .gear-category .category-header {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('../images/tesla_reveal.png');
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/huawei-mate-xs-header-image-368x276.png');
   background-size: cover;
 }
 
 .category-tech .category-header {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('../images/tesla_break.png');
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/3061093760_b92f06b7ba_o-368x276.jpg');
   background-size: cover;
 }
 
 .category-launch .category-header {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('../images/make_games.jpg');
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg');
   background-size: cover;
 }
 
 .category-podium .category-header {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('../images/ios13.png');
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/big_survival_base_3-368x276.png');
   background-size: cover;
 }
 
 .category-insights .category-header {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('../images/bitcoin_dwight.jpg');
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/01/lousy_hacker-368x276.jpg');
   background-size: cover;
 }
 
 .category-launch .category-header {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('../images/amazon_grocery.jpg');
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/robots-368x276.jpg');
   background-size: cover;
 }
 
 .category-distract .category-header {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('../images/tesla_break.png');
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Giphy_Jif-Featured-368x276.jpg');
   background-size: cover;
 }
 
