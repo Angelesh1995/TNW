@@ -352,6 +352,10 @@ a {
 .category-header{
   width: 368px;
   height: 276px;
+  
+}
+.category-header > * {
+  margin-left: 2%;
 }
 .apps-category .category-header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 85%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-368x276.jpg");
@@ -642,6 +646,17 @@ a {
   font-size: 14px;
   font-weight: 600;
 }
+.category-header h5 {
+  padding-top: 50% ;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 600;
+}
+.category a, .category-header h5 {
+  color: #fff;
+}
+
 .cover header h2 {
   margin: 0 20px 15px 20px;
   font-size: 28px;
