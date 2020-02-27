@@ -1018,6 +1018,8 @@ a {
 
   .topics {
     grid-template-columns: 1fr;
+    margin: 20% auto;
+    padding: 0 10px;
   }
 
   .category {
