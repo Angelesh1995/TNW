@@ -392,7 +392,7 @@ a {
   background-size: cover;
 }
 
-.category-launch .category-header {
+.category-creative .category-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/robots-368x276.jpg');
   background-size: cover;
 }
@@ -775,6 +775,10 @@ a {
   .latest-news-item a img {
     width: 100%;
     height: auto;
+  }
+  .topics {
+    justify-content: space-evenly;
+    grid-template-columns: repeat(2, minmax(225px, 310px));
   }
 
   .funding-grid {
