@@ -1065,9 +1065,9 @@ a {
     padding: 2px;
   }
 
-  .footer-nav li {
+ /* .footer-nav li {
     margin: 0 1px;
-  }
+  }*/
 
   .copyright .wrapper {
     grid-template-columns: 1fr;
@@ -1081,12 +1081,12 @@ a {
     text-align: center;
   }
 
-  .footer-nav li {
-    margin: 0 6px;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    font-size: 12px;
-  }
+.footer-nav li {
+  margin: 0 6px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 12px;
+}
 
   .footer-nav li a {
     color: #aaa;
