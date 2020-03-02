@@ -25,8 +25,8 @@ a {
   white-space: nowrap;
 }
 
-.black-header-left > *,
-.black-header-right > * {
+.black-header-left>*,
+.black-header-right>* {
   text-decoration: none;
   font-size: 0.85rem;
   font-family: sans-serif;
@@ -50,7 +50,7 @@ a {
   align-items: center;
 }
 
-.white-header-left > * {
+.white-header-left>* {
   text-decoration: none;
   text-transform: uppercase;
   color: #979797;
@@ -126,26 +126,6 @@ a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.cover a {
-  color: #fff;
-}
-
-.cover header {
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 80%);
-}
-
-.cover:first-child {
-  grid-row: 1 / -1;
-  height: 450px;
-  background-image: linear-gradient(170deg, rgba(246, 7, 7, 1) 0%, rgba(0, 0, 0, 0) 65%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Larry-Tesler-796x416.jpg");
-  background-size: cover;
-  margin-right: 8px;
-}
-
 .cover:nth-child(2) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Snag_28822478-796x433.png");
   background-size: cover;
@@ -181,19 +161,6 @@ a {
   height: 227px;
 }
 
-.latest-news-item a img {
-  width: 100%;
-  height: 135px;
-}
-
-.latest-news-item a {
-  color: #000;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-}
-
 .funding-header-main {
   display: flex;
   justify-content: space-between;
@@ -214,10 +181,9 @@ a {
   color: #f42;
 }
 
-.funding-links li a {
-  font-family: sans-serif;
-  font-size: 16px;
-  color: #f42;
+.funding-header-top {
+  height: 40px;
+  background-color: #f42;
 }
 
 .funding-item {
@@ -226,102 +192,9 @@ a {
   background-color: #fffaf8;
 }
 
-.funding-header-top {
-  height: 40px;
-  background-color: #f42;
-}
-
-.latest-news-item ul {
-  display: flex;
-  align-content: flex-end;
-}
-
-.funding-links li {
-  margin: 0 10px;
-}
-
-.more-from-category li {
-  display: block;
-  position: relative;
-  padding: 6px 0 6px 14px;
-  font-family: sans-serif;
-  font-size: 13px;
-  line-height: 1.5;
-  border-bottom: 1px solid #eee;
-}
-
-.latest-news-item ul li {
-  font-family: sans-serif;
-  font-size: 13px;
-  color: #aaa;
-}
-
-.funding-header-top h4 {
-  padding-top: 11px;
-  margin-left: 100px;
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #fff;
-}
-
-.funding-header-bottom h4,
-.funding-header-bottom h5 {
-  margin-left: 100px;
-  font-family: sans-serif;
-  color: #000;
-}
-
-.funding-header-bottom h4 {
-  padding-top: 13px;
-  margin-bottom: 4px;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.latest-news-item a h4 {
-  margin: 5px 0;
-}
-
-.category-latest header h4 a {
-  color: #f42;
-}
-
-.latest-news-item ul li a {
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaa;
-  align-self: flex-start;
-}
-
-.more-from-category li a:hover {
-  color: #000;
-}
-
-.latest-news-item ul li:first-child::after {
-  content: "\B7";
-  display: inline-block;
-  margin-left: 4px;
-}
-
-.funding-links li a:hover {
-  color: #000;
-}
-
-.latest-news-item ul li a:hover {
-  color: #555;
-}
-
 .funding-header-bottom {
   height: 60px;
   background: rgba(255, 68, 34, 0.08);
-}
-
-.funding-header-bottom h5 {
-  font-size: 12px;
-  font-weight: 500;
-  text-transform: uppercase;
-  opacity: 0.5;
 }
 
 .funding-category {
@@ -330,10 +203,6 @@ a {
   font-family: sans-serif;
   font-size: 13px;
   color: #555;
-}
-
-.funding-category:hover {
-  color: #000;
 }
 
 .funding-icon {
@@ -354,10 +223,6 @@ a {
   color: #555;
 }
 
-.funding-story span {
-  color: #aaa;
-}
-
 .topics {
   display: grid;
   grid-template-columns: repeat(3, minmax(310px, 368px));
@@ -376,7 +241,7 @@ a {
   height: 276px;
 }
 
-.category-header > * {
+.category-header>* {
   margin-left: 2%;
 }
 
@@ -428,11 +293,167 @@ a {
   margin: 2px 0;
   background-color: rgba(255, 68, 34, 0.06);
 }
+.footer-logo {
+  height: 12px;
+}
+
+.powered-by {
+  position: relative;
+  top: 4px;
+  height: 16px;
+}
+.latest-deals {
+  margin-bottom: 80px;
+}
+.cover a {
+  color: #fff;
+}
+
+.cover header {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 80%);
+}
+
+.cover:first-child {
+  grid-row: 1 / -1;
+  height: 450px;
+  background-image: linear-gradient(170deg, rgba(246, 7, 7, 1) 0%, rgba(0, 0, 0, 0) 65%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Larry-Tesler-796x416.jpg");
+  background-size: cover;
+  margin-right: 8px;
+}
+
+.latest-news-item a {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.latest-news-item a img {
+  width: 100%;
+  height: 135px;
+}
+
+.funding-links li a {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #f42;
+}
+
+.latest-news-item ul {
+  display: flex;
+  align-content: flex-end;
+}
+
+.funding-links li {
+  margin: 0 10px;
+}
+
+.more-from-category li {
+  display: block;
+  position: relative;
+  padding: 6px 0 6px 14px;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  border-bottom: 1px solid #eee;
+}
+
+.funding-header-bottom h4,
+.funding-header-bottom h5 {
+  margin-left: 100px;
+  font-family: sans-serif;
+  color: #000;
+}
+
+.funding-header-bottom h4 {
+  padding-top: 13px;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.latest-news-item ul li {
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.funding-header-top h4 {
+  padding-top: 11px;
+  margin-left: 100px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.funding-header-bottom h5 {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.latest-news-item a h4 {
+  margin: 5px 0;
+}
+
+.latest-deals header a {
+  font-size: 16px;
+  color: #f42;
+  font-family: sans-serif;
+}
+
+.funding-story span {
+  color: #aaa;
+}
+
+
 
 .category-latest header {
   margin-top: 15px;
   margin-left: 20px;
 }
+
+.category-latest header h4 a {
+  color: #f42;
+}
+
+.latest-news-item ul li a {
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaa;
+  align-self: flex-start;
+}
+
+.more-from-category li a:hover {
+  color: #000;
+}
+
+.funding-links li a:hover {
+  color: #000;
+}
+
+.latest-news-item ul li:first-child::after {
+  content: "\B7";
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.latest-news-item ul li a:hover {
+  color: #555;
+}
+
+.funding-category:hover {
+  color: #000;
+}
+
+
 
 .category-latest header h5 {
   font-family: sans-serif;
@@ -450,12 +471,6 @@ a {
 
 .more-from-category li a {
   color: #555;
-}
-
-.latest-deals header a {
-  font-size: 16px;
-  color: #f42;
-  font-family: sans-serif;
 }
 
 .latest-deals header h2 a {
@@ -480,9 +495,7 @@ a {
   border-radius: 50%;
 }
 
-.latest-deals {
-  margin-bottom: 80px;
-}
+
 
 .latest-deals header {
   display: flex;
@@ -756,17 +769,10 @@ a {
   margin: 0 auto;
 }
 
-.footer-logo {
-  height: 12px;
-}
 
-.powered-by {
-  position: relative;
-  top: 4px;
-  height: 16px;
-}
 
 /* Tablet mode */
+
 @media only screen and (max-width: 1000px) {
   .latest-news-grid {
     grid-template-columns: repeat(3, minmax(225px, 310px));
@@ -1069,7 +1075,6 @@ a {
   /* .footer-nav li {
     margin: 0 1px;
   } */
-
   .copyright .wrapper {
     grid-template-columns: 1fr;
     justify-items: center;
