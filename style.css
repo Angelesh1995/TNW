@@ -638,9 +638,20 @@ a {
 .more-from-category li a {
   color: #555;
 }
+ 
+.latest-deals header a {
+  font-size: 16px;
+  color: #f42;
+  font-family: sans-serif;
+}
+
+.funding-header-main h2 a,
+.category h2 a {
+  color: #f42;
+}
 
 .funding-links li a:hover {
-  color: #000;
+  color: #000; 
 }
 
 .more-from-category li a:hover {
@@ -659,12 +670,6 @@ a {
   font-family: sans-serif;
   font-size: 14px;
   font-weight: 700;
-}
-
-.latest-deals header a {
-  font-size: 16px;
-  color: #f42;
-  font-family: sans-serif;
 }
 
 .latest-deals header a:hover {
@@ -691,11 +696,6 @@ a {
 
 .social li img:hover {
   opacity: 0.5;
-}
-
-.funding-header-main h2 a,
-.category h2 a {
-  color: #f42;
 }
 
 .latest-news-item a img {
