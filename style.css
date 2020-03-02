@@ -451,6 +451,18 @@ a {
   color: #555;
 }
 
+.latest-deals header a {
+  font-size: 16px;
+  color: #f42;
+  font-family: sans-serif;
+}
+
+.latest-deals header h2 a {
+  margin-bottom: 14px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
 .category-latest header h4 a:hover {
   box-shadow: inset 0 -1px 0 rgba(255, 68, 34, 0.2);
 }
@@ -476,18 +488,6 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: 0 20px 30px 20px;
-}
-
-.latest-deals header h2 a {
-  margin-bottom: 14px;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.latest-deals header a {
-  font-size: 16px;
-  color: #f42;
-  font-family: sans-serif;
 }
 
 .latest-deals header a:hover {
