@@ -388,7 +388,7 @@ a {
   height: 16px;
 }
 
-/*Two*/
+/* Two */
 
 .hamburguer-icon .hamb-line {
   padding: 0;
@@ -606,7 +606,7 @@ a {
   margin: 0 auto;
 }
 
-/*Three*/
+/* Three */
 
 .latest-news-item a img {
   width: 100%;
@@ -629,22 +629,22 @@ a {
   margin: 5px 0;
 }
 
-.more-from-category li a:hover {
-  color: #000;
-}
-
 .latest-news-item ul li:first-child::after {
   content: "\B7";
   display: inline-block;
   margin-left: 4px;
 }
 
+.more-from-category li a {
+  color: #555;
+}
+
 .funding-links li a:hover {
   color: #000;
 }
 
-.more-from-category li a {
-  color: #555;
+.more-from-category li a:hover {
+  color: #000;
 }
 
 .category-latest header h5 {
@@ -745,8 +745,7 @@ a {
   color: #fff;
 }
 
-
-/*Four*/
+/* Four */
 
 .category-latest header h4 a {
   color: #f42;
