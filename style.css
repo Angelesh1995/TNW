@@ -130,8 +130,6 @@ a {
   margin-right: 12px;
   grid-column: -2 / -1;
   height: 225px;
- 
-  
 }
 
 .cover:nth-child(3) {
@@ -141,8 +139,7 @@ a {
   margin-right: 12px;
   grid-column: -2 / -1;
   height: 225px;
-  
-} 
+}
 
 .latest,
 .funding,
@@ -374,12 +371,7 @@ a {
   display: flex;
 }
 
-
-
-
-
 /* Two */
-
 .hamburguer-icon .hamb-line {
   padding: 0;
   margin: 0;
@@ -706,12 +698,7 @@ a {
   color: hsla(0, 0%, 100%, 0.6);
 }
 
-
-
-
-
 /* Four */
-
 .category-latest header h4 a {
   color: #f42;
 }
@@ -761,9 +748,7 @@ a {
   color: #555;
 }
 
-
 /* Tablet mode */
-
 @media only screen and (max-width: 1000px) {
   .latest-news-grid {
     grid-template-columns: repeat(3, minmax(225px, 310px));
