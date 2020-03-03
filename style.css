@@ -117,12 +117,11 @@ a {
 }
 
 .cover:first-child {
-  grid-row: 1 / -1;
   grid-column: 1 / -2;
-  height: 450px;
   background-image: linear-gradient(170deg, rgba(246, 7, 7, 1) 0%, rgba(0, 0, 0, 0) 65%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Larry-Tesler-796x416.jpg");
   background-size: cover;
   margin-right: 8px;
+  grid-row: 1 /-1;
 }
 
 .cover:nth-child(2) {
@@ -130,7 +129,9 @@ a {
   background-size: cover;
   margin-right: 12px;
   grid-column: -2 / -1;
-  grid-row: 1 / 4;
+  height: 225px;
+ 
+  
 }
 
 .cover:nth-child(3) {
@@ -139,8 +140,9 @@ a {
   margin-top: 8px;
   margin-right: 12px;
   grid-column: -2 / -1;
-  grid-row: 4 / 7;
-}
+  height: 225px;
+  
+} 
 
 .latest,
 .funding,
@@ -339,7 +341,7 @@ a {
 .featured {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 225px);
   padding: 3px;
   background: linear-gradient(#eee, #fff 5%);
   font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -1053,8 +1055,6 @@ a {
     width: 97%;
     height: 225px;
   }
-
-
 
   .author-meta-data li img {
     vertical-align: middle;
