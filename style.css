@@ -768,7 +768,7 @@ a {
     grid-template-columns: repeat(2, minmax(225px, 310px));
   }
 
-  .funding-grid {
+  .funding-grid, .latest-deals-grid {
     grid-template-columns: repeat(3, minmax(225px, 310px));
   }
 
