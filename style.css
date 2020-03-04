@@ -229,7 +229,8 @@ a {
 .topics {
   display: grid;
   grid-template-columns: repeat(3, minmax(310px, 368px));
-  justify-content: center;
+  justify-content:space-evenly;
+
   gap: 20px;
   padding: 0 20px;
 }
@@ -457,46 +458,55 @@ a {
 .apps-category .category-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 85%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-368x276.jpg");
   background-size: cover;
+  max-width: 100%;
 }
 
 .gear-category .category-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/huawei-mate-xs-header-image-368x276.png');
   background-size: cover;
+  max-width: 100%;
 }
 
 .category-tech .category-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/3061093760_b92f06b7ba_o-368x276.jpg');
   background-size: cover;
+  max-width: 100%;
 }
 
 .category-launch .category-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg');
   background-size: cover;
+  max-width: 100%;
 }
 
 .category-podium .category-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/big_survival_base_3-368x276.png');
   background-size: cover;
+  max-width: 100%;
 }
 
 .category-insights .category-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/01/lousy_hacker-368x276.jpg');
   background-size: cover;
+  max-width: 100%;
 }
 
 .category-creative .category-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/robots-368x276.jpg');
   background-size: cover;
+  max-width: 100%;
 }
 
 .category-distract .category-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 85%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Giphy_Jif-Featured-368x276.jpg');
   background-size: cover;
+  max-width: 100%;
 }
 
 .category-latest header {
   margin-top: 15px;
   margin-left: 20px;
+  max-width: 100%;
 }
 
 .more-from-category li::before {
