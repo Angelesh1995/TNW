@@ -5,22 +5,24 @@ This project consists of replicating the The Next Web website putting emphasis o
 - HTML
 - CSS
 # Live demo link
-The project can be found in this link https://design-teardown-hh41gxx6q.now.sh/
+The project can be found in this link https://raw.githack.com/Angelesh1995/TNW/feature/index.html
 
 # Authors
 
 👤 Joseph Mindo
 
-- Github: Mindo-Joseph
-- Twitter: @mindoJoseph
-- Linkedin: https://www.linkedin.com/in/joseph-mindo-367284132/
+- Github: [@MindoJoseph](https://github.com/Mindo-Joseph)
+- Twitter: [@mindoJoseph](https://twitter.com/mindoJoseph)
+- Linkedin: [Joseph Mindo](https://www.linkedin.com/in/joseph-mindo-367284132/)
+- Google: mindo.joseph.mj@gmail.com
+
 
 
 👤 María de los Angeles Hinojosa Pretell
 
-- Github: @angelesh1995
-- Twitter: @Maria_AngelesxD
-- Linkedin: https://www.linkedin.com/in/mar%C3%ADa-de-los-angeles-hinojosa-pretell-99935a66/
+- Github: [@angelesh1995](https://github.com/Angelesh1995)
+- Twitter: [@Maria_AngelesxD](https://twitter.com/Maria_AngelesxD)
+- Linkedin: [Maria de los Angeles Hinojosa Pretell](https://www.linkedin.com/in/mar%C3%ADa-de-los-angeles-hinojosa-pretell-99935a66/)
 
 # Contributing
 Contributions, issues and feature requests are welcome!
