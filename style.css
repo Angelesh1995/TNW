@@ -759,6 +759,9 @@ a {
 
 /* Tablet mode */
 @media only screen and (max-width: 1000px) {
+  body {
+    overflow-x: hidden;
+  }
   .latest-news-grid {
     grid-template-columns: repeat(3, minmax(225px, 310px));
   }
