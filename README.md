@@ -5,7 +5,7 @@ This project consists of replicating the The Next Web website putting emphasis o
 - HTML
 - CSS
 # Live demo link
-The project can be found in this link https://design-teardown-hh41gxx6q.now.sh/
+The project can be found in this link https://raw.githack.com/Angelesh1995/TNW/feature/index.html
 
 # Authors
 
