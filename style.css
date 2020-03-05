@@ -753,6 +753,16 @@ nav {
   font-family: sans-serif;
   font-size: 28px;
 }
+.category-header h5,
+.category-header h3,
+.category-latest h5,
+.category-latest h4{
+  margin-left: 4%;
+}
+.category-latest h5 {
+  margin-top: 1%;
+  font-weight: lighter;
+}
 
 .funding-links li a {
   display: block;
