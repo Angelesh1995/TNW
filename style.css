@@ -625,6 +625,7 @@ nav {
   grid-template-rows: 1fr 20px 1fr auto;
   column-gap: 10px;
   height: 75px;
+  margin-bottom: 15px;
 }
 
 .latest-deals-img {
