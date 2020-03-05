@@ -626,6 +626,7 @@ nav {
   column-gap: 10px;
   height: 75px;
   margin-bottom: 15px;
+  margin-left: 2%;
 }
 
 .latest-deals-img {
@@ -730,7 +731,9 @@ nav {
   list-style-type: disc;
   list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10" height="10"><circle fill="red" cx="5" cy="5" r="2"/></svg>');
 }
-
+.latest-deals-item ul {
+  display: flex;
+}
 .headline-list li {
   margin-top: 4%;
   margin-left: 8%;
