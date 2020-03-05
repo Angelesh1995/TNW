@@ -521,7 +521,9 @@ a {
 }
 
 /* Mobile layout */
-
+body {
+  overflow-x: hidden;
+}
 nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -656,6 +658,7 @@ nav {
   column-gap: 10px;
   height: auto;
   margin-bottom: 2%;
+  margin-left: 2%;
 }
 
 .funding-grid {
@@ -710,6 +713,10 @@ nav {
 .subtitle {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+.category h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .white-header-left a {
