@@ -764,13 +764,11 @@ nav {
   margin-top: 1%;
   font-weight: lighter;
 }
-
-.funding-links li a {
-  display: block;
-  font-size: 14px;
-  line-height: 16px;
+.latest-deals header{
+  display: flex;
+  margin-bottom: 4%;
+  margin-left: 2%;
 }
-
 .red-article-image img {
   height: 100px;
 }
@@ -783,7 +781,17 @@ nav {
 .latest-news-item ul {
   margin-top: 0;
 }
-
+.latest-deals header h2 {
+  margin-right: 10%;
+}
+.latest-deals header a {
+  margin-top: 2%;
+}
+.funding-links li a {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+}
 .latest-news-item a img {
   height: 75px;
 }
