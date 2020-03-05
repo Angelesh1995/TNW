@@ -1,4 +1,4 @@
-/*General*/
+/* General */
 
 body {
   margin: 0;
@@ -65,7 +65,10 @@ a {
   display: flex;
 }
 
-.latest, .funding, .topics, .latest-deals {
+.latest,
+.funding,
+.topics,
+.latest-deals {
   margin: 80px auto 0 auto;
   max-width: 1176px;
 }
@@ -192,7 +195,8 @@ a {
   font-weight: 600;
 }
 
-.category a, .category-header h5 {
+.category a,
+.category-header h5 {
   color: #fff;
 }
 
@@ -240,7 +244,8 @@ a {
   color: #fff;
 }
 
-.funding-header-bottom h4, .funding-header-bottom h5 {
+.funding-header-bottom h4,
+.funding-header-bottom h5 {
   margin-left: 100px;
   font-family: sans-serif;
   color: #000;
@@ -276,7 +281,8 @@ a {
   padding: 6px;
 }
 
-.latest h2, .funding-header-main h2 {
+.latest h2,
+.funding-header-main h2 {
   margin-bottom: 28px;
   margin-left: 20px;
   font-family: sans-serif;
@@ -420,7 +426,8 @@ a {
   font-family: sans-serif;
 }
 
-.funding-header-main h2 a, .category h2 a {
+.funding-header-main h2 a,
+.category h2 a {
   color: #f42;
 }
 
@@ -535,7 +542,7 @@ nav {
 }
 
 .hamburguer-icon {
-  display: inline-block;
+  display: block;
 }
 
 .yellow-header {
@@ -547,6 +554,15 @@ nav {
 
 .nav-festival {
   margin-left: 1.5%;
+}
+.top-logo{
+  position: relative;
+  
+  
+}
+.header-logo {
+  max-width: 80%;
+  height: auto;
 }
 
 .hamburguer-icon .hamb-line {
@@ -567,7 +583,6 @@ nav {
   display: grid;
   gap: 5px;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 1fr);
   height: 100%;
   margin: 2%;
 }
@@ -590,7 +605,14 @@ nav {
 .latest-deals-grid {
   grid-template-columns: 1fr;
 }
-
+.category-latest {
+  display: grid;
+  grid-template-columns: 1fr 96px;
+  grid-template-rows: 96px auto;
+  height: 96px;
+  margin: 2px 0;
+  background-color: rgba(255, 68, 34, 0.06);
+}
 .discount {
   display: none;
 }
@@ -633,6 +655,7 @@ nav {
   grid-template-columns: 75px 1fr;
   column-gap: 10px;
   height: auto;
+  margin-bottom: 2%;
 }
 
 .funding-grid {
@@ -776,7 +799,7 @@ nav {
   grid-row: 1 / span 3;
 }
 
-/*Desktop*/
+/* Desktop */
 
 @media screen and (min-width: 1001px) {
   .black-header {
@@ -792,13 +815,16 @@ nav {
     justify-content: space-between;
     white-space: nowrap;
   }
-  .black-header-left>*, .black-header-right>* {
+
+  .black-header-left > *,
+  .black-header-right > * {
     text-decoration: none;
     font-size: 0.85rem;
     font-family: sans-serif;
     color: #979797;
     margin-right: 10px;
   }
+
   .white-header {
     display: flex;
     justify-content: space-between;
@@ -809,52 +835,6 @@ nav {
     box-sizing: border-box;
     width: 100%;
   }
-  .topics {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(310px, 368px));
-    justify-content: space-evenly;
-    gap: 20px;
-    padding: 0 20px;
-  }
-  .white-header-left {
-    display: flex;
-    align-items: center;
-  }
-  .white-header-left>* {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #979797;
-    margin-right: 4%;
-  }
-  .white-header-right {
-    display: flex;
-  }
-  .search-wrapper {
-    width: 50px;
-    height: 100%;
-    border-left: 1px solid rgb(230, 230, 230);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .funding-item {
-    position: relative;
-    height: 270px;
-    background-color: #fffaf8;
-  }
-  .search {
-    display: block;
-    width: 16px;
-    height: 16px;
-    opacity: 0.5;
-  }
-  .hamburguer-icon {
-    padding: 15px;
-    width: 50px;
-    height: 100%;
-    box-sizing: border-box;
-    display: none;
-  }
   .featured {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -863,6 +843,63 @@ nav {
     background: linear-gradient(#eee, #fff 5%);
     font-family: "Helvetica Neue", Helvetica, sans-serif;
   }
+
+  .topics {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(310px, 368px));
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .white-header-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .white-header-left > * {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #979797;
+    margin-right: 4%;
+  }
+
+  .white-header-right {
+    display: flex;
+  }
+
+  .search-wrapper {
+    width: 50px;
+    height: 100%;
+    border-left: 1px solid rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .funding-item {
+    position: relative;
+    height: 270px;
+    background-color: #fffaf8;
+  }
+
+  .search {
+    display: block;
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+  }
+
+  .hamburguer-icon {
+    padding: 15px;
+    width: 50px;
+    height: 100%;
+    box-sizing: border-box;
+    display: none;
+  }
+
+  
+
   .discount {
     position: absolute;
     top: 0;
@@ -871,6 +908,7 @@ nav {
     height: 80px;
     background: linear-gradient(to bottom left, #fc0 50%, transparent 50% 100%);
   }
+
   .discount-size {
     position: absolute;
     top: 23px;
@@ -881,43 +919,53 @@ nav {
     font-weight: 700;
     text-transform: uppercase;
   }
+
   .cover:first-child {
     grid-column: 1 / -2;
     height: 450px;
   }
+
   .cover:nth-child(2) {
     grid-column: -2 / -1;
     height: 225px;
   }
+
   .cover:nth-child(3) {
     grid-column: -2 / -1;
     height: 225px;
   }
+
   .cover-date {
     position: absolute;
     top: 16px;
     right: 24px;
     font-size: 14px;
   }
+
   .logo {
     height: 130px;
     margin: 10px;
   }
+
   .category {
     height: 660px;
   }
+
   .category-header {
     width: 368px;
     height: 276px;
   }
+
   .powered-by {
     position: relative;
     top: 4px;
     height: 16px;
   }
-  .category-header>* {
+
+  .category-header > * {
     margin-left: 2%;
   }
+
   .category-latest {
     display: grid;
     grid-template-columns: 1fr 96px;
@@ -926,6 +974,7 @@ nav {
     margin: 2px 0;
     background-color: rgba(255, 68, 34, 0.06);
   }
+
   .copyright {
     display: grid;
     justify-content: center;
@@ -938,24 +987,31 @@ nav {
     font-size: 13px;
     line-height: 16px;
   }
-  .latest-news-grid, .funding-grid, .latest-deals-grid {
+
+  .latest-news-grid,
+  .funding-grid,
+  .latest-deals-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(224px, 270px));
     justify-content: center;
     grid-gap: 20px;
     margin: 0 20px;
   }
+
   .latest-news-grid {
     grid-template-columns: repeat(4, minmax(225px, 310px));
   }
+
   .latest-news-item {
     height: 227px;
   }
+
   .category-latest header {
     margin-top: 15px;
     margin-left: 20px;
     max-width: 100%;
   }
+
   .copyright .wrapper {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -963,25 +1019,30 @@ nav {
     grid-gap: 2px;
     margin: 0 auto;
   }
+
   .latest-deals header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 20px 30px 20px;
   }
+
   .category h2 {
     margin-bottom: 20px;
     font-size: 20px;
   }
+
   .cover header h5 {
     padding-bottom: 15%;
   }
+
   .cover header h2 {
     font-size: 18px;
     position: absolute;
     margin-left: 20px;
     bottom: 20px;
   }
+
   .more-from-category li::before {
     position: absolute;
     top: 13px;
@@ -995,11 +1056,7 @@ nav {
   }
 }
 
-/* Two */
 
-/* Three */
-
-/* Four */
 
 /* Tablet mode */
 
@@ -1007,26 +1064,42 @@ nav {
   body {
     overflow-x: hidden;
   }
+
   .latest-news-grid {
     grid-template-columns: repeat(3, minmax(225px, 310px));
   }
+  .featured {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 225px);
+    padding: 3px;
+    background: linear-gradient(#eee, #fff 5%);
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+  }
+
   .topics {
     justify-content: space-evenly;
     grid-template-columns: repeat(2, minmax(225px, 310px));
   }
-  .funding-grid, .latest-deals-grid {
+
+  .funding-grid,
+  .latest-deals-grid {
     grid-template-columns: repeat(3, minmax(225px, 310px));
   }
+
   .funding-header-main {
     flex-direction: column;
   }
+
   .funding-links {
     margin: -10px 0 25px 10px;
   }
+
   .latest-news-item a img {
     width: 100%;
     height: auto;
   }
+
   .funding-item:last-child {
     display: none;
   }
