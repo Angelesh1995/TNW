@@ -715,8 +715,9 @@ nav {
   margin-bottom: 25px;
 }
 .category h2 {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 15px;
+  font-weight: bolder;
 }
 
 .white-header-left a {
@@ -810,6 +811,20 @@ nav {
   grid-column: 1 / -1;
   width: 97%;
   height: 225px;
+}
+.more-from-category {
+  margin-bottom: 8%;
+}
+.more-from-category li::before {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  display: block;
+  content: "";
+  height: 4px;
+  width: 4px;
+  background-color: #f42;
+  border-radius: 50%;
 }
 
 .latest-news-item a:first-child {
