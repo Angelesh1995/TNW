@@ -653,6 +653,21 @@ nav {
 .latest-news-grid {
   grid-template-columns: 1fr;
 }
+.copyright {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  height: 110px;
+  color: #aaa;
+  font-family: sans-serif;
+  background: #000;
+  font-size: 13px;
+  line-height: 16px;
+}
+.copyright > * {
+  margin-left: 2%;
+}
 
 .latest-news-item {
   display: grid;
