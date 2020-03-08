@@ -88,6 +88,9 @@ a {
   .top-links, .main-header nav ul {
     display: none;
   }
+  .logo {
+    display: none;
+  }
 
   .hamburger {
     display: inline-block;
@@ -209,6 +212,10 @@ a {
   line-height: 1.3;
   background-color: rgb(255, 221, 51);
 }
+.logo{
+  height: 130px;
+  margin: 10px;
+}
 
 
 
@@ -257,6 +264,7 @@ a {
 .i-menu {
   background-image: url('img/menu.svg');
 }
+
 
 .footer-logo {
   height: 12px;
@@ -816,9 +824,7 @@ nav {
   height: 225px;
 }
 
-.logo {
-  display: none;
-}
+
 
 .cover-date {
   display: none;
@@ -1059,6 +1065,7 @@ nav {
   .main-header nav ul {
     display: flex
   }
+  
   .main-nav {
     display: flex;
   }
