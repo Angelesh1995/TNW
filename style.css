@@ -53,6 +53,7 @@ nav {
   margin-left: 14px;
   grid-template-rows: 48px;
   justify-content: space-between;
+  display: flex;
 }
 
 .right-nav {
@@ -204,6 +205,7 @@ nav {
   align-self: flex-start;
 }
 
+
 .top-links ul li a {
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 13px;
@@ -211,6 +213,9 @@ nav {
 
 .category-latest header h4 a {
   color: #f42;
+}
+.main-header nav ul li a {
+  color: grey;
 }
 
 .latest-news-item a:first-child {
@@ -267,14 +272,19 @@ nav {
     padding: 13px 16px;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
   }
-
+  
   .main-header nav {
     margin-left: 104px;
   }
 
   .main-header nav ul {
     display: flex;
+    
   }
+  .main-header nav ul li {
+    margin-left: 4px;
+  }
+  
 }
 
 @media only screen and (max-width: 760px) {
@@ -428,6 +438,9 @@ nav {
   font-size: 18px;
   color: #f42;
 }
+.featured h2 {
+  display: none;
+}
 
 .cover header h5 {
   margin: 0 20px 5px 20px;
@@ -472,18 +485,18 @@ nav {
 
   .cover:first-child {
     grid-column: 1 / -2;
-    width: 97%;
-    height: 360px;
+    width: 100%;
+    height: 450px;
   }
 
   .cover:nth-child(2) {
     grid-column: -2 / -1;
-    height: 180px;
+    height: 225px;
   }
 
   .cover:nth-child(3) {
     grid-column: -2 / -1;
-    height: 180px;
+    height: 225px;
   }
 
   .hamburguer-icon {
@@ -515,6 +528,7 @@ nav {
     height: 130px;
     margin: 10px;
   }
+  
 
   .cover:first-child {
     grid-column: 1 / -2;
