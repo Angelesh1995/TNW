@@ -424,10 +424,11 @@ nav {
 }
 
 .latest h2 {
-  margin: 0 6px;
+  margin: 0 8px 6px 6px;
   text-transform: uppercase;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 18px;
+  color: #f42;
 }
 
 .cover header h5 {
