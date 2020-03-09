@@ -736,8 +736,6 @@ nav {
     grid-template-columns: repeat(3, minmax(225px, 310px));
   }
 
-
-
   .funding-links {
     margin: -10px 0 25px 10px;
   }
