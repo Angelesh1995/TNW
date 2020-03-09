@@ -26,19 +26,17 @@ nav {
 }
 
 .sale-price {
-  font-size: 14px;
+  font-size: 12px;
 }
 
-.old-price {
+.initial-price {
   font-size: 13px;
   color: #aaa;
+  margin-left: 5%;
   text-decoration: line-through;
 }
 
-.new-price {
-  font-size: 16px;
-  color: #555;
-}
+
 
 /* Navigation bar */
 
@@ -117,7 +115,7 @@ nav {
 }
 
 .latest-deals-header a {
-  font-size: 1.4rem;
+  font-size: 12px;
   align-self: center;
   color: #f42;
 }
@@ -922,8 +920,13 @@ nav {
   padding: 0 0 0.5rem 0;
   font-size: 1.4rem;
   font-size: 10px;
+  margin-left: 5%;
 }
 
+.latest-deals-header h2 {
+  font-size: 18px;
+  color: #f42;
+}
 .latest-deals-item a img {
   height: 75px;
 }
@@ -963,13 +966,15 @@ nav {
   }
 
   .latest-deals-header h2 {
-    font-size: 2.8rem;
+    font-size: 16px;
+    color: #f42;
   }
 
   .latest-deal h3 {
     padding: 1rem 0;
     font-size: 1.6rem;
     font-size: 14px;
+    
   }
 
   .latest-deal h4 {
@@ -1024,7 +1029,8 @@ nav {
   }
 
   .latest-deals-header h2 {
-    font-size: 2.8rem;
+    font-size: 16px;
+    color: #f42;
   }
 
   .latest-deal h3 {
