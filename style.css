@@ -3,6 +3,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  max-width: 100%;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
