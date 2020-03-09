@@ -23,6 +23,9 @@ nav {
 
 .main {
   overflow: hidden;
+  margin-top: 2px;
+  margin-right: -5px;
+  margin-left: 5px;
 }
 
 .sale-price {
@@ -59,18 +62,12 @@ nav {
 }
 
 .announcement {
-  padding: 0.7rem 2rem;
-  font-size: 1.3rem;
+  padding: 0.4rem 2rem;
+  font-size: 13px;
   line-height: 1.3;
   background-color: rgb(255, 221, 51);
+  vertical-align: baseline;
 }
-
-/* .announcement {
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-  font-size: 10px;
-} */
 
 .main-header {
   display: flex;
@@ -263,7 +260,9 @@ nav {
   }
 
   .main-header nav ul li {
-    margin-left: 4px;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
   }
 }
 
@@ -310,14 +309,14 @@ nav {
   gap: 5px;
   grid-template-columns: 1fr;
   height: 100%;
-  margin: 2%;
+  margin: 0.5px;
 }
 
 .cover {
   grid-column: 1 / -1;
   height: 225px;
   position: relative;
-  color: #fff;
+  color:white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -347,7 +346,7 @@ nav {
 }
 
 .cover:nth-child(3) {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/iphoneapps1200-796x417.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-1-796x417.png");
   background-size: cover;
   margin-top: 8px;
   margin-right: 12px;
