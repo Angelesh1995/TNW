@@ -764,7 +764,7 @@ nav {
 
 .topics {
   grid-template-columns: 1fr;
-  margin: 20% auto;
+  margin: 20% auto ;
   padding: 0 10px;
 }
 
@@ -869,6 +869,8 @@ nav {
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: repeat(2, minmax(225px, 310px));
+    margin-top: 8%;
+    margin-bottom: 8%;
   }
 }
 
