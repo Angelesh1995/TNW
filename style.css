@@ -760,7 +760,7 @@ nav {
     display: block;
   }
   .funding-links  {
-    display: flex;
+    display: flex; 
     flex-direction: row;
     
   }
@@ -926,6 +926,7 @@ nav {
 
 .latest-deal {
   display: flex;
+  margin-bottom: 2%;
 }
 
 .deal-img {
