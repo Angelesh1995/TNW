@@ -438,10 +438,6 @@ nav {
   color: #f42;
 }
 
-.featured h2 {
-  display: none;
-}
-
 .latest-deals-header h2 {
   font-size: 18px;
   color: #f42;
@@ -893,7 +889,7 @@ nav {
 
   .category-header {
     width: 368px;
-    height: 276px;
+    height: 260px;
   }
 
   .category-header > * {
