@@ -205,7 +205,6 @@ nav {
   align-self: flex-start;
 }
 
-
 .top-links ul li a {
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 13px;
@@ -214,6 +213,7 @@ nav {
 .category-latest header h4 a {
   color: #f42;
 }
+
 .main-header nav ul li a {
   color: grey;
 }
@@ -272,19 +272,18 @@ nav {
     padding: 13px 16px;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
   }
-  
+
   .main-header nav {
     margin-left: 104px;
   }
 
   .main-header nav ul {
     display: flex;
-    
   }
+
   .main-header nav ul li {
     margin-left: 4px;
   }
-  
 }
 
 @media only screen and (max-width: 760px) {
@@ -438,8 +437,14 @@ nav {
   font-size: 18px;
   color: #f42;
 }
+
 .featured h2 {
   display: none;
+}
+
+.latest-deals-header h2 {
+  font-size: 18px;
+  color: #f42;
 }
 
 .cover header h5 {
@@ -528,7 +533,6 @@ nav {
     height: 130px;
     margin: 10px;
   }
-  
 
   .cover:first-child {
     grid-column: 1 / -2;
@@ -937,10 +941,6 @@ nav {
   margin-left: 5%;
 }
 
-.latest-deals-header h2 {
-  font-size: 18px;
-  color: #f42;
-}
 .latest-deals-item a img {
   height: 75px;
 }
@@ -988,7 +988,6 @@ nav {
     padding: 1rem 0;
     font-size: 1.6rem;
     font-size: 14px;
-    
   }
 
   .latest-deal h4 {
