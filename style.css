@@ -142,7 +142,7 @@ nav {
 }
 
 .funding-links li {
-  margin: 0 10px;
+  margin: 5px 10px;
 }
 
 .footer-nav li {
@@ -658,10 +658,9 @@ nav {
 /* Funding */
 
 .funding-header-main {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  display:block;
 }
+
 
 .funding-img {
   position: relative;
@@ -676,6 +675,7 @@ nav {
   margin-right: 10px; */
   color: #f42;
   display: flex;
+  flex-direction: column;
   margin: -20px 0 10px 20px;
 }
 
@@ -729,9 +729,7 @@ nav {
     grid-template-columns: repeat(3, minmax(225px, 310px));
   }
 
-  .funding-header-main {
-    flex-direction: column;
-  }
+  
 
   .funding-links {
     margin: -10px 0 25px 10px;
