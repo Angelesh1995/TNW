@@ -811,6 +811,7 @@ nav {
   height: auto;
 }
 
+
 @media only screen and (max-width: 1000px) and (min-width: 768px) {
   .funding-grid,
   .latest-deals-grid {
@@ -974,6 +975,8 @@ nav {
     justify-content: space-evenly;
     gap: 20px;
     padding: 0 20px;
+    margin-top: 8%;
+    margin-bottom: 8%;
   }
 
   .category {
@@ -1026,6 +1029,11 @@ nav {
   grid-column-gap: 10px;
   padding: 0 0 0 12px;
 }
+.segment-heading h2 a {
+  color: #ff4422;
+  font-size: 25px;
+  
+}
 
 
 
@@ -1054,15 +1062,26 @@ nav {
   position: relative;
   margin-bottom: 8px;
 }
-
-
 .latest-deals-item-img .special-deal {
-  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 80px yellow solid;
+  border-left: 80px transparent solid;
 }
 
 .latest-deals-item-img .special-deal-discount {
-  display: none;
+  position: absolute;
+  top: 23px;
+  right: 1px;
+  transform: rotate(45deg);
+  text-transform: uppercase;
+  font-size: 14px;
 }
+
+
 
 
 .latest-deals-item-img-1 {
@@ -1114,7 +1133,16 @@ nav {
   font-size: 16px;
   color: #555;
 }
+@media only screen and (max-width:768px){
+  .latest-deals-item-img .special-deal {
+    display: none;
+  }
+  
+  .latest-deals-item-img .special-deal-discount {
+    display: none;
+  }
 
+}
 
 @media only screen and (max-width: 1000px) and (min-width: 768px) {
   .latest-deals-item a {
