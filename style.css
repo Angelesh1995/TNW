@@ -1038,13 +1038,12 @@ nav {
   justify-content: start;
   grid-column-gap: 10px;
   padding: 0 0 0 12px;
-}
-.segment-heading h2 a {
-  color: #ff4422;
-  font-size: 25px;
-  
+  margin-top: 5%;
 }
 
+.segment-heading a {
+  color: #ff4422;
+}
 
 
 .latest-deals-item a {
@@ -1053,7 +1052,12 @@ nav {
   font-weight: 600;
   color: #000;
 }
-
+.segment-heading h2 a {
+  color: #ff4422;
+  font-size: 25px;
+  padding-left: 15px;
+  
+}
 /* .latest-deals-item a:hover {
   color: #ff4422;
   text-decoration-line: underline;
@@ -1103,7 +1107,8 @@ nav {
 }
 
 .latest-deals-item-img-3 {
-  background: url("https://cdnp1.stackassets.com/4877419c5210a138309370ee75cc76f1b948bb5e/store/9b289361df25a17bb05f05f17ff941efe4c16e642b95dbc007277b0c05ad/sale_26449_primary_image.jpg") left top/cover no-repeat;
+  
+  background: url("https://cdnp0.stackassets.com/a1b45c57042cdef1f1b897016cfde23589de621d/store/55c827cf0a6ce820b885872694c7271be3c3e8f89e91e59b2637a866fffa/sale_25748_primary_image.jpg") left top/cover no-repeat;
 }
 
 .latest-deals-item-img-4 {
@@ -1130,6 +1135,7 @@ nav {
 
 .deal-prices {
   padding-top: 4px;
+  margin-bottom: 8%;
 }
 
 .deal-old-price {
@@ -1143,7 +1149,7 @@ nav {
   font-size: 16px;
   color: #555;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:767px){
   .latest-deals-item-img .special-deal {
     display: none;
   }
