@@ -27,32 +27,32 @@ nav {
   margin-right: -5px;
   margin-left: 5px;
 }
+
 .deal-picture {
-	background-size: cover;
-	height: 200px;
-	width: 270px;
+  background-size: cover;
+  height: 200px;
+  width: 270px;
 }
 
 .discount-triangle {
-	background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
-	background-repeat: no-repeat;
-	height: 80px;
-	position: absolute;
-	right: 0;
-	width: 80px;
-	z-index: 5;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
+  background-repeat: no-repeat;
+  height: 80px;
+  position: absolute;
+  right: 0;
+  width: 80px;
+  z-index: 5;
 }
 
 .rotation-container {
-	-webkit-transform: rotate(45deg);
-	        transform: rotate(45deg);
-	font-size: 13px;
-	font-weight: bold;
-	left: 14px;
-	position: relative;
-	top: 34px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  font-size: 13px;
+  font-weight: bold;
+  left: 14px;
+  position: relative;
+  top: 34px;
 }
-
 
 .sale-price {
   font-size: 12px;
@@ -108,31 +108,6 @@ nav {
 
 .header-logo {
   display: none;
-}
-.deal-picture {
-	background-size: cover;
-	height: 200px;
-	width: 270px;
-}
-
-.discount-triangle {
-	background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
-	background-repeat: no-repeat;
-	height: 80px;
-	position: absolute;
-	right: 0;
-	width: 80px;
-	z-index: 5;
-}
-
-.rotation-container {
-	-webkit-transform: rotate(45deg);
-	        transform: rotate(45deg);
-	font-size: 13px;
-	font-weight: bold;
-	left: 14px;
-	position: relative;
-	top: 34px;
 }
 
 .search {
@@ -200,8 +175,8 @@ nav {
   font-size: 12px;
 }
 
-.footer-nav li a {
-  color: #aaa;
+.latest-deals ul {
+  grid-template-columns: 1fr;
 }
 
 .latest-news-item ul {
@@ -217,6 +192,21 @@ nav {
 
 .main-header nav ul {
   display: flex;
+}
+
+.segment-heading a {
+  color: #f42;
+}
+
+.latest-deals-item a {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.footer-nav li a {
+  color: #aaa;
 }
 
 .funding-links li a {
@@ -244,6 +234,12 @@ nav {
   margin: 6px;
 }
 
+.segment-heading h2 a {
+  color: #f42;
+  font-size: 25px;
+  padding-left: 15px;
+}
+
 .latest-news-item ul li a {
   font-size: 13px;
   font-weight: 400;
@@ -266,6 +262,11 @@ nav {
 
 .latest-news-item a:first-child {
   grid-row: 1 / span 3;
+}
+
+.latest-deals-details a:hover {
+  color: #f42;
+  text-decoration-line: underline;
 }
 
 .main-nav li:first-child a {
@@ -305,27 +306,29 @@ nav {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     background: #131313;
   }
-  .deal-picture {
-		height: 22.5vw;
-		width: 100%;
-	}
 
-	.discount-triangle {
-		height: 80px;
-		margin-left: 22.5vw;
-		width: 80px;
+  .deal-picture {
+    height: 22.5vw;
+    width: 100%;
   }
+
+  .discount-triangle {
+    height: 80px;
+    margin-left: 22.5vw;
+    width: 80px;
+  }
+
   .deal-title {
     font-weight: bold;
     padding-bottom: 8px;
     padding-top: 10px;
   }
-  
+
   .deal-title:hover {
     color: red;
     text-decoration: underline;
-    -webkit-text-decoration-color: #FF442240;
-            text-decoration-color: #FF442240;
+    -webkit-text-decoration-color: #ff442240;
+    text-decoration-color: #ff442240;
   }
 
   .main-header nav ul {
@@ -373,15 +376,17 @@ nav {
   .logo {
     display: none;
   }
+
   .deal-picture {
-		float: left;
-		height: 75px;
-		margin-right: 15px;
-		width: 75px;
+    float: left;
+    height: 75px;
+    margin-right: 15px;
+    width: 75px;
   }
+
   .discount-triangle {
-		display: none;
-	}
+    display: none;
+  }
 }
 
 /* Cover stories */
@@ -398,7 +403,7 @@ nav {
   grid-column: 1 / -1;
   height: 225px;
   position: relative;
-  color:white;
+  color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -664,10 +669,6 @@ nav {
   max-width: 1176px;
 }
 
-.latest-deals {
-  margin-bottom: 80px;
-}
-
 .latest-news-grid {
   grid-template-columns: 1fr;
 }
@@ -820,7 +821,6 @@ nav {
 .funding-item {
   height: auto;
 }
-
 
 @media only screen and (max-width: 1000px) and (min-width: 768px) {
   .funding-grid,
@@ -1020,11 +1020,10 @@ nav {
 
 /* Latest Deals */
 .latest-deals {
+  margin-bottom: 80px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
-.latest-deals ul {
-  grid-template-columns: 1fr;
-}
+
 .latest-deals .segment-heading {
   display: grid;
   grid-auto-flow: column;
@@ -1041,34 +1040,14 @@ nav {
   margin-top: 5%;
 }
 
-.segment-heading a {
-  color: #ff4422;
-}
 
 
-.latest-deals-item a {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 600;
-  color: #000;
-}
-.segment-heading h2 a {
-  color: #ff4422;
-  font-size: 25px;
-  padding-left: 15px;
-  
-}
 /* .latest-deals-item a:hover {
   color: #ff4422;
   text-decoration-line: underline;
-  
+
 } */
 
-.latest-deals-details a:hover {
-  color: #ff4422;
-  text-decoration-line: underline;
-  
-}
 .latest-deals-item-img {
   width: 75px;
   height: 75px;
@@ -1076,6 +1055,7 @@ nav {
   position: relative;
   margin-bottom: 8px;
 }
+
 .latest-deals-item-img .special-deal {
   position: absolute;
   top: 0;
@@ -1095,9 +1075,6 @@ nav {
   font-size: 14px;
 }
 
-
-
-
 .latest-deals-item-img-1 {
   background: url("https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg") left top/cover no-repeat;
 }
@@ -1107,7 +1084,6 @@ nav {
 }
 
 .latest-deals-item-img-3 {
-  
   background: url("https://cdnp0.stackassets.com/a1b45c57042cdef1f1b897016cfde23589de621d/store/55c827cf0a6ce820b885872694c7271be3c3e8f89e91e59b2637a866fffa/sale_25748_primary_image.jpg") left top/cover no-repeat;
 }
 
@@ -1131,8 +1107,6 @@ nav {
   background: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg") left top/cover no-repeat;
 }
 
-
-
 .deal-prices {
   padding-top: 4px;
   margin-bottom: 8%;
@@ -1141,7 +1115,7 @@ nav {
 .deal-old-price {
   font-size: 13px;
   line-height: 16px;
-  color: #AAA;
+  color: #aaa;
   text-decoration-line: line-through;
 }
 
@@ -1149,15 +1123,15 @@ nav {
   font-size: 16px;
   color: #555;
 }
-@media only screen and (max-width:767px){
+
+@media only screen and (max-width: 767px) {
   .latest-deals-item-img .special-deal {
     display: none;
   }
-  
+
   .latest-deals-item-img .special-deal-discount {
     display: none;
   }
-
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 768px) {
@@ -1171,6 +1145,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .latest-deals-item {
     display: grid;
     grid-auto-flow: row;
@@ -1178,6 +1153,7 @@ nav {
     grid-column-gap: 10px;
     padding: 0 0 0 12px;
   }
+
   .latest-deals-item-img {
     width: 100%;
     padding-top: 55%;
@@ -1188,14 +1164,15 @@ nav {
   .deal-old-price {
     font-size: 12px;
     line-height: 16px;
-    color: #AAA;
+    color: #aaa;
     text-decoration-line: line-through;
   }
-  
+
   .deal-new-price {
     font-size: 14px;
     color: #555;
   }
+
   .latest-deals-item-img .special-deal {
     position: absolute;
     top: 0;
@@ -1205,7 +1182,7 @@ nav {
     border-top: 80px yellow solid;
     border-left: 80px transparent solid;
   }
-  
+
   .latest-deals-item-img .special-deal-discount {
     position: absolute;
     top: 23px;
@@ -1214,15 +1191,14 @@ nav {
     text-transform: uppercase;
     font-size: 14px;
   }
-  
 }
 
 @media only screen and (min-width: 1001px) {
-  
   .latest-deals ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
+
   .latest-deals-item {
     display: grid;
     justify-content: start;
@@ -1230,12 +1206,14 @@ nav {
     grid-column-gap: 10px;
     padding: 0 0 0 12px;
   }
+
   .latest-deals-item-img {
     width: 100%;
     padding-top: 75%;
     position: relative;
     margin-bottom: 8px;
   }
+
   .latest-deals-item-img .special-deal {
     position: absolute;
     top: 0;
@@ -1245,7 +1223,7 @@ nav {
     border-top: 80px yellow solid;
     border-left: 80px transparent solid;
   }
-  
+
   .latest-deals-item-img .special-deal-discount {
     position: absolute;
     top: 23px;
@@ -1254,11 +1232,6 @@ nav {
     text-transform: uppercase;
     font-size: 14px;
   }
-
-  
-
-  
-  
 }
 
 /* Footer */
