@@ -88,6 +88,7 @@ nav {
 }
 
 .right-nav {
+  display: flex;
   margin-right: 14px;
 }
 
