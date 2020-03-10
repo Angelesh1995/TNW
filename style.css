@@ -388,7 +388,7 @@ nav {
 
 .featured {
   display: grid;
-  gap: 5px;
+  gap: 1px;
   grid-template-columns: 1fr;
   height: 100%;
   margin: 0.5px;
@@ -430,7 +430,7 @@ nav {
 .cover:nth-child(3) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-1-796x417.png");
   background-size: cover;
-  margin-top: 8px;
+  margin-top: 3px;
   margin-right: 12px;
 }
 
@@ -619,7 +619,7 @@ nav {
 
   .cover:first-child {
     grid-column: 1 / -2;
-    height: 450px;
+    height: 460px;
   }
 
   .cover:nth-child(2) {
@@ -641,6 +641,16 @@ nav {
     position: absolute;
     margin-left: 20px;
     bottom: 20px;
+  }
+
+  .cover header .cover-h2 {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  .cover header .mini-cover-h2 {
+    font-size: 20px;
+    font-weight: bolder;
   }
 }
 
